@@ -1,0 +1,10 @@
+# Child repositories cloned into the managed workspace are intentionally not
+# tracked by this orchestration repository.
+/repos/*
+!/repos/.gitkeep
+
+# Common local/editor state
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
