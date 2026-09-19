@@ -1,0 +1,37 @@
+{
+  "suite_version": "1.0.0",
+  "generated_at": "2026-09-19",
+  "sources": {
+    "github_awesome_copilot": {
+      "repository": "https://github.com/github/awesome-copilot",
+      "commit": "4f4796f0bf30e105700f97ed8408c12b6aa95e06",
+      "included": [
+        "skills/chrome-devtools",
+        "skills/sql-optimization"
+      ]
+    },
+    "dotnet_skills": {
+      "repository": "https://github.com/dotnet/skills",
+      "commit": "8bbfe7a4d1c5c0cd42cd04e38031779c75f2dda3",
+      "included": [
+        "plugins/dotnet-diag/skills/analyzing-dotnet-performance",
+        "plugins/dotnet-diag/skills/dotnet-trace-collect",
+        "plugins/dotnet-diag/skills/dump-collect"
+      ]
+    },
+    "vercel_agent_skills": {
+      "repository": "https://github.com/vercel-labs/agent-skills",
+      "commit": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "included": [
+        "skills/react-best-practices"
+      ]
+    }
+  },
+  "chrome_devtools_mcp": {
+    "repository": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "commit": "882f93e9a8809fe88eced35d793951fb456b7117",
+    "npm_package": "chrome-devtools-mcp",
+    "npm_version": "1.9.0"
+  }
+}
+

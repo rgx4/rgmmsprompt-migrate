@@ -1,0 +1,35 @@
+{
+  "$schema": "https://www.speedscope.app/file-format-schema.json",
+  "shared": {
+    "frames": [
+      {"name": "Root"},
+      {"name": "Controller", "file": "Controller.cs", "line": 42},
+      {"name": "Serialize", "file": "Response.cs", "line": 17}
+    ]
+  },
+  "profiles": [
+    {
+      "type": "sampled",
+      "name": "sampled-test",
+      "unit": "milliseconds",
+      "startValue": 0,
+      "endValue": 10,
+      "samples": [[0, 1], [0, 1, 2]],
+      "weights": [6, 4]
+    },
+    {
+      "type": "evented",
+      "name": "evented-test",
+      "unit": "milliseconds",
+      "startValue": 0,
+      "endValue": 10,
+      "events": [
+        {"type": "O", "at": 0, "frame": 0},
+        {"type": "O", "at": 2, "frame": 1},
+        {"type": "C", "at": 8, "frame": 1},
+        {"type": "C", "at": 10, "frame": 0}
+      ]
+    }
+  ]
+}
+
