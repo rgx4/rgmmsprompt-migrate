@@ -1,0 +1,9 @@
+{
+  "name": "performance-investigation-suite",
+  "description": "Evidence-first browser, React, .NET, EF Core, and SQL performance investigation agents and skills.",
+  "version": "1.0.0",
+  "agents": ".copilot/agents/",
+  "skills": [
+    ".copilot/skills/"
+  ]
+}
